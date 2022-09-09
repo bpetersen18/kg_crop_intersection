@@ -1,0 +1,9 @@
+name: kg_crop
+channels:
+  - conda-forge
+  - base
+  - R
+dependencies:
+  - r-base=4.1
+  - r-tidyverse=1.3.1
+  - r-raster=3.5
