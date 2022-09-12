@@ -56,7 +56,7 @@ calc_crop_prod_per_kg_climate  <-  function(crop_type){
 
     system(paste0("mkdir data/crop_per_kg_climate/", crop_type))
 
-    write_csv(percent_tbl, file = paste0("data/crop_per_kg_climate/", crop_type, "/", crop_type, "_yield.csv"), col_names = T)
+    write_csv(final_tbl, file = paste0("data/crop_per_kg_climate/", crop_type, "/", crop_type, "_yield.csv"), col_names = T)
 }
 
 
